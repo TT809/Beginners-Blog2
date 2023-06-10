@@ -31,11 +31,11 @@ export const Thiel: IAuthor = {
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/nmayur'
+            link: 'https://github.com'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/mayur-nalwala/'
+            link: 'https://www.linkedin.com'
         },
     ]
 }
@@ -48,19 +48,19 @@ export const RUPALI: IAuthor = {
     social: [
         {
             icon: <AiFillGithub />,
-            link: 'https://github.com/rupali-yadav'
+            link: 'https://github.com'
         },
         {
             icon: <AiFillLinkedin />,
-            link: 'https://www.linkedin.com/in/rupali-yadav-087bb4112/'
+            link: 'https://www.linkedin.com'
         },
     ]
 }
 
 
 // This can your company name / your name etc for SEO purposes
-export const WEBSITE_NAME: string = 'Next Js Blog Template';
-export const WEBSITE_URL: string = 'https://nextjs-simple-blog-template.web.app/';
+export const WEBSITE_NAME: string = 'Beginners Blog';
+export const WEBSITE_URL: string = 'https://Beginners-Blog/';
 
 /**
  * This is the main navigation setup.
@@ -77,7 +77,7 @@ export const PRIMARY_NAV: iNavSetup = {
     // },
     logo: {
         type: LogoType.TEXT,
-        logo: 'Next Blog',
+        logo: 'Beginners Blog',
     },
     // navLinks are the main navbar links that apper on top of every page
     navLinks: [
@@ -98,12 +98,12 @@ export const PRIMARY_NAV: iNavSetup = {
         {
             // to open a link in new tab pass newTab: true
             label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
+            path: 'https://google.com',
             newTab: true
         },
         {
             label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
+            path: 'https://github.com/tt809/beginners-blog',
             newTab: true
         },
         {
@@ -129,12 +129,12 @@ export const PRIMARY_NAV: iNavSetup = {
         },
         {
             label: 'Support Us',
-            path: 'https://www.buymeacoffee.com/webexpe13z',
+            path: 'https://google.com',
             newTab: true
         },
         {
             label: 'Github Repo',
-            path: 'https://github.com/webexpe13/blog-template-using-nextjs-typescript-tailwindcss',
+            path: 'https://github.com/tt809/beginners-blog',
             newTab: true
         },
         {
@@ -159,11 +159,11 @@ export const PRIMARY_NAV: iNavSetup = {
 }
 
 export const DEFAULT_SEO: iSEO = {
-    title: "Nextjs simple blog template",
-    description: "A simple blog template using NextJS and Typescript.",
+    title: "Beginners Blog",
+    description: "A Blog for Beginners",
     keywords: "Blog, next js, template, next js blog, blog setup, typescript, nextjs typescript, react js blog template, responsive blog template",
     url: WEBSITE_URL,
     author: `${Thiel.name}, ${RUPALI.name}`,
-    twitterHandle: '@WebExpe',
+    twitterHandle: '@BeginnersBlog',
     ogImage: '/public/images/og-image.jpg'
 }
